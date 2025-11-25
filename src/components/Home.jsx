@@ -47,7 +47,7 @@ const Home = ({ score, canvasRef, isPaused, isGameOver }) => {
         {/* Controls hint */}
         <div className="mt-6 text-center">
           <p className="text-slate-500 text-sm">
-            Use arrow keys to move • Eat red squares to grow
+            Use arrow keys to move 
           </p>
         </div>
       </div>
