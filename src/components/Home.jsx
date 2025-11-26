@@ -59,8 +59,10 @@ const Home = ({
         )}
 
         {/* Controls hint */}
-        <div className="mt-4 text-center px-2 w-full">
-          <p className="text-slate-500 text-sm">USE ARROW KEYS OR SWIPES</p>
+        <div className="mt-6 text-center">
+          <p className="text-slate-500 text-sm">
+            Use arrow keys to move • Eat red squares to grow
+          </p>
         </div>
       </div>
     </div>
