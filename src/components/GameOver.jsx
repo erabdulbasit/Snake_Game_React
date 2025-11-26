@@ -1,10 +1,6 @@
 import React from "react";
 
-const GameOver = ({ score, highScore }) => {
-  const handleRestart = () => {
-    window.location.reload();
-  };
-
+const GameOver = ({ score, highScore, onRestart }) => {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-slate-950">
       {/* Animated background circles */}
@@ -39,7 +35,7 @@ const GameOver = ({ score, highScore }) => {
         </div>
 
         <button
-          onClick={() => handleRestart()}
+          onClick={() => onRestart()}
           className="w-full bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-400 hover:to-blue-400 text-white font-bold text-lg py-4 rounded-xl transition-all duration-300 shadow-lg shadow-cyan-500/30 hover:shadow-cyan-500/50 hover:-translate-y-1"
         >
           Play Again

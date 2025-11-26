@@ -15,7 +15,7 @@ export const useKeyboardControls = (
 
       // Start game on first keypress
       if (!isGameStarted) {
-        console.log("▶️ Game started");
+        //console.log("▶️ Game started");
         setIsGameStarted(true);
         setIsPaused(false);
         setCurrentDirection("UP");

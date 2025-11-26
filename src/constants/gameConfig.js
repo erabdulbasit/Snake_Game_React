@@ -5,6 +5,7 @@ export const GAME_CONFIG = {
   INITIAL_SNAKE_POSITION: { x: 400, y: 400 },
   INITIAL_BAIT_POSITION: { x: 100, y: 100 },
   INITIAL_DIRECTION: "LEFT",
+  THRESHOLD_SWIPE: 40,
 };
 
 export const FOOD_ITEMS = [
@@ -27,8 +28,8 @@ export const AUDIO_CONFIG = {
   GAME_OVER_SOUND: "/gameover.mp3",
   BACKGROUND_MUSIC: "/move.mp3",
   VOLUMES: {
-    eating: 0.5,
-    gameOver: 0.5,
-    background: 0.2,
+    eating: 0.4,
+    gameOver: 0.4,
+    background: 0.3,
   },
 };
