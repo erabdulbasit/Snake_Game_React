@@ -59,7 +59,7 @@ const Home = ({
         )}
 
         {/* Controls hint */}
-        <div className="mt-4 text-center px-2 w-full">
+        <div className="mt-6 text-center">
           <p className="text-slate-500 text-sm">USE ARROW KEYS OR SWIPES</p>
         </div>
       </div>
